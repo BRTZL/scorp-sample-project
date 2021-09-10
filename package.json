@@ -15,7 +15,6 @@
     "vue-i18n": "^8.25.0",
     "vue-meta": "^2.4.0",
     "vue-router": "^3.2.0",
-    "vuelidate": "^0.7.6",
     "vuetify": "^2.4.0",
     "vuetify-i18n-language-switcher-nuxt": "^0.0.3",
     "vuex": "^3.4.0"
