@@ -1,7 +1,7 @@
 <template>
 	<v-container fluid fill-height>
 		<v-layout align-center justify-center>
-			<v-card>
+			<v-card v-if="$store.state.user != null">
 				<v-card-title>
 					<span class="text-h5">
 						{{ $t("account.title") }}
@@ -28,6 +28,14 @@
 					</v-container>
 				</v-card-text>
 			</v-card>
+			<v-btn
+				v-else
+				color="primary"
+				@click="$store.commit('showLoginDialog')"
+				style="text-transform: none"
+			>
+				{{ $t("loginModal.title") }}
+			</v-btn>
 		</v-layout>
 	</v-container>
 </template>
