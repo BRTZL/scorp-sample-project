@@ -5,12 +5,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    user: {
-      firstName: "Bartu",
-      middleName: "",
-      lastName: "OZEL",
-      email: "bartuozel@gmail.com"
-    },
+    user: null,
     loginDialog: false,
     drawer: false,
   },
