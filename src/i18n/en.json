@@ -1,0 +1,65 @@
+{
+  "errors": {
+    "required": {
+      "name": "Name is required",
+      "email": "Email is required",
+      "countryCode": "Country is required",
+      "phoneNumber": "Phone Number is required",
+      "feedback": "Feedback is required"
+    },
+    "valid": {
+      "phoneNumber": "Please enter valid Phone Number",
+      "email": "Please enter valid Email"
+    }
+  },
+  "meta": {
+    "home": "Home",
+    "contactUs": "Contact Us",
+    "account": "Account"
+  },
+  "home": {
+    "title": "En Title",
+    "text": "Nisi esse ad laboris esse tempor aliqua ex. Aute voluptate aute dolor consectetur. Eu esse cillum nostrud exercitation exercitation ex eiusmod proident velit et amet exercitation velit velit. Voluptate sit deserunt excepteur quis occaecat deserunt eu excepteur et ipsum consectetur sit velit fugiat. Ullamco laboris amet cillum ea aute adipisicing. Nisi adipisicing ex voluptate aute non consequat veniam proident. Amet Lorem id amet ea officia laborum duis qui cupidatat id aliqua aliquip. Excepteur nisi reprehenderit laboris tempor elit qui velit. Do eiusmod fugiat qui commodo ex laborum anim ullamco ullamco pariatur aliqua sit labore. Proident quis cupidatat enim sint aute laborum elit ad laborum nostrud commodo. Est nostrud ullamco qui magna ex cupidatat excepteur nisi nulla cupidatat voluptate id aute. Id sunt dolor nostrud aute consequat cillum tempor ex labore proident et. In ipsum ad exercitation deserunt excepteur pariatur occaecat. Qui tempor officia consectetur velit pariatur cillum commodo excepteur in consequat."
+  },
+  "navbar": {
+    "home": "Home",
+    "contactUs": "Contact Us",
+    "login": "Login",
+    "account": "Account",
+    "logout": "Logout"
+  },
+  "loginModal": {
+    "title": "Login",
+    "firstName": "First name",
+    "middleName": "Middle name",
+    "lastName": "Last name",
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "cancel": "Cancel"
+  },
+  "contactUsForm": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "countryCode": "Country",
+    "feedback": "Feedback",
+    "submit": "Send"
+  },
+  "account": {
+    "title": "Account",
+    "name": "Name",
+    "email": "Email"
+  },
+  "countryList": {
+    "TR": "Turkey",
+    "US": "United States of America",
+    "GB": "United Kingdom",
+    "DE": "Germany",
+    "SE": "Sweden",
+    "KE": "Kenya",
+    "BR": "Brazil",
+    "ZW": "Zimbabwe"
+  }
+}

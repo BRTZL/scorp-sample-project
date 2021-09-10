@@ -1,0 +1,66 @@
+{
+  "errors": {
+    "required": {
+      "name": "İsim zorunludur",
+      "email": "Email zorunludur",
+      "countryCode": "Ülke zorunludur",
+      "phoneNumber": "Telefon Numarası zorunludur",
+      "feedback": "Mesaj zorunludur"
+    },
+    "valid": {
+      "phoneNumber": "Lütfen doğru bir Telefon Numarası giriniz",
+      "email": "Lütfen doğru bir Email adresi giriniz"
+    }
+  },
+  "meta": {
+    "home": "Ana Sayfa",
+    "contactUs": "İletişim",
+    "account": "Hesabım"
+  },
+  "home": {
+    "title": "Tr Başlık",
+    "text": "Dolor deserunt in id duis est nulla aute ad proident ea. Quis in ullamco eu est anim tempor velit laborum. Quis veniam anim non ea eiusmod exercitation consectetur elit dolor ea officia et excepteur commodo. Minim proident sint sint cupidatat non exercitation nulla excepteur culpa est nisi esse culpa. Minim pariatur quis commodo ipsum velit labore dolor cillum laborum reprehenderit consectetur nisi. Exercitation nostrud adipisicing proident incididunt eu dolore reprehenderit do Lorem fugiat occaecat quis. Ipsum dolore consequat nostrud dolore cupidatat ea tempor nisi nisi sint. Culpa aute duis laboris amet Lorem eiusmod sint magna consectetur deserunt laboris ea. Do consectetur fugiat ut amet aute fugiat eu culpa ad consequat laborum velit dolore aliquip. Cillum sunt consequat anim et ad sunt. Irure velit nostrud minim mollit duis excepteur proident sint adipisicing occaecat dolore. Dolor irure cillum consequat minim exercitation ullamco occaecat pariatur sunt nisi ullamco aute est aute. Officia ullamco ea ad pariatur non ex consectetur pariatur voluptate fugiat deserunt quis. Est duis exercitation duis exercitation incididunt tempor commodo. Laborum id culpa aliquip fugiat cillum laboris minim esse ipsum duis excepteur sint in. Dolore qui ipsum nisi officia elit."
+  },
+  "navbar": {
+    "home": "Ana Sayfa",
+    "contactUs": "Bize Ulaş",
+    "login": "Giriş Yap",
+    "account": "Hesabım",
+    "logout": "Çıkış Yap"
+  },
+  "loginModal": {
+    "title": "Giriş Yap",
+    "firstName": "İsim",
+    "middleName": "İkinci isim",
+    "lastName": "Soyisim",
+    "email": "Email",
+    "password": "Şifre",
+    "login": "Giriş Yap",
+    "cancel": "İptal"
+  },
+  "contactUsForm": {
+    "title": "Bize Ulaş",
+    "name": "İsim",
+    "email": "Email",
+    "phoneNumber": "Telefon Numarası",
+    "countryCode": "Ülke",
+    "feedback": "Geri Bildirim",
+    "submit": "Gönder",
+    "cancel": "İptal"
+  },
+  "account": {
+    "title": "Hesabım",
+    "name": "İsim",
+    "email": "Email"
+  },
+  "countryList": {
+    "TR": "Türkiye",
+    "US": "Amerika Birleşik Devletleri",
+    "GB": "Birleşik Krallık",
+    "DE": "Almanya",
+    "SE": "İsveç",
+    "KE": "Kenya",
+    "BR": "Brezilya",
+    "ZW": "Zimbabve"
+  }
+}
