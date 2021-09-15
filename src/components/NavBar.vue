@@ -1,10 +1,5 @@
 <template>
 	<v-app-bar app color="primary" dark>
-		<v-app-bar-nav-icon
-			class="d-flex d-md-none"
-			@click="$store.commit('showDrawer')"
-		/>
-
 		<div class="d-flex align-center">
 			<v-img
 				alt="Scorp Logo"
@@ -101,6 +96,11 @@
 				{{ $t("navbar.login") }}
 			</v-btn>
 		</div>
+
+		<v-app-bar-nav-icon
+			class="d-flex d-md-none"
+			@click="$store.commit('showDrawer')"
+		/>
 	</v-app-bar>
 </template>
 

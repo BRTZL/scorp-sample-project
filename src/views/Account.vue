@@ -1,7 +1,7 @@
 <template>
 	<v-container fluid fill-height>
 		<v-layout align-center justify-center>
-			<v-card v-if="$store.state.user != null">
+			<v-card v-if="$store.state.user != null" class="mx-auto">
 				<v-card-title>
 					<span class="text-h5">
 						{{ $t("account.title") }}
@@ -27,7 +27,14 @@
 						</v-row>
 					</v-container>
 				</v-card-text>
+
+				<v-card-actions>
+					<v-btn block color="primary" @click="$store.commit('setUser', null)">
+						{{ $t("navbar.logout") }}
+					</v-btn>
+				</v-card-actions>
 			</v-card>
+
 			<v-btn
 				v-else
 				color="primary"
